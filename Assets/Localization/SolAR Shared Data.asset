@@ -1,0 +1,937 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: SolAR Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: SolAR
+  m_TableCollectionNameGuidString: 5e252c3fa6ab4481686a5005a0019ce3
+  m_Entries:
+  - m_Id: 3550745714688
+    m_Key: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714689
+    m_Key: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714690
+    m_Key: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714691
+    m_Key: Submit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714692
+    m_Key: TryAgain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714693
+    m_Key: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714694
+    m_Key: ChangePanel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714695
+    m_Key: ChangeLocation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714696
+    m_Key: Shade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714697
+    m_Key: ARModule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714698
+    m_Key: AppTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714699
+    m_Key: Objective
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714700
+    m_Key: ObjectiveDetails
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714701
+    m_Key: Space3x3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714702
+    m_Key: States
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714703
+    m_Key: OptimalAngle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714704
+    m_Key: StateRed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714705
+    m_Key: StateOrange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714706
+    m_Key: StateYellow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714707
+    m_Key: StateGreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714708
+    m_Key: HighDegree
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714709
+    m_Key: MediumDegree
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714710
+    m_Key: NormalDegree
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714711
+    m_Key: LowDegree
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714712
+    m_Key: MapInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714713
+    m_Key: SolarLow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714714
+    m_Key: SolarMid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714715
+    m_Key: SolarHigh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714716
+    m_Key: ShortCircuit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714717
+    m_Key: SolarCalculationDetail100W
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714718
+    m_Key: MultimeterToCurrent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714719
+    m_Key: AdjustTiltInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714720
+    m_Key: RotatePanelInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714721
+    m_Key: PleaseTryAgain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714722
+    m_Key: WrongTiltAngle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714723
+    m_Key: YouAreCorrect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714724
+    m_Key: CorrectTiltAngle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714725
+    m_Key: ShadeDetail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714726
+    m_Key: ClickOpenShade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550745714727
+    m_Key: ClickCloseShade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2315298119081984
+    m_Key: SummaryDetails
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749908993
+    m_Key: MultimeterToVoltage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749908994
+    m_Key: Congratulations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749908995
+    m_Key: AccomplishmentsOverview
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749909015
+    m_Key: SelectSolarPanelInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749909016
+    m_Key: TiltHint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749909017
+    m_Key: DayNightInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749909018
+    m_Key: SolarCalculationDetail150W
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749909019
+    m_Key: SolarCalculationDetail330W
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749909020
+    m_Key: Summary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749909021
+    m_Key: New Entry 26
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749909022
+    m_Key: New Entry 27
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749909023
+    m_Key: New Entry 28
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749909024
+    m_Key: New Entry 29
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749909025
+    m_Key: New Entry 30
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749909026
+    m_Key: New Entry 31
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749909027
+    m_Key: New Entry 32
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749909028
+    m_Key: New Entry 33
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749909029
+    m_Key: New Entry 34
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749909030
+    m_Key: New Entry 35
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749909031
+    m_Key: New Entry 36
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749909032
+    m_Key: New Entry 37
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749909033
+    m_Key: New Entry 38
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749909034
+    m_Key: New Entry 39
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749909035
+    m_Key: New Entry 40
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103296
+    m_Key: New Entry 41
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103297
+    m_Key: New Entry 42
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103298
+    m_Key: New Entry 43
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103299
+    m_Key: New Entry 44
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103300
+    m_Key: New Entry 45
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103301
+    m_Key: New Entry 46
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103302
+    m_Key: New Entry 47
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103303
+    m_Key: New Entry 48
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103304
+    m_Key: New Entry 49
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103305
+    m_Key: New Entry 50
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103306
+    m_Key: New Entry 51
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103307
+    m_Key: New Entry 52
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103308
+    m_Key: New Entry 53
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103309
+    m_Key: New Entry 54
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103310
+    m_Key: New Entry 55
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103311
+    m_Key: New Entry 56
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103312
+    m_Key: New Entry 57
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103313
+    m_Key: New Entry 58
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103314
+    m_Key: New Entry 59
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103315
+    m_Key: New Entry 60
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103316
+    m_Key: New Entry 61
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103317
+    m_Key: New Entry 62
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103318
+    m_Key: New Entry 63
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103319
+    m_Key: New Entry 64
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103320
+    m_Key: New Entry 65
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103321
+    m_Key: New Entry 66
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550754103322
+    m_Key: New Entry 67
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758297600
+    m_Key: New Entry 68
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758297601
+    m_Key: New Entry 69
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758297602
+    m_Key: New Entry 70
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758297603
+    m_Key: New Entry 71
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758297604
+    m_Key: New Entry 72
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758297605
+    m_Key: New Entry 73
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758297606
+    m_Key: New Entry 74
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758297607
+    m_Key: New Entry 75
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758297608
+    m_Key: New Entry 76
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758297609
+    m_Key: New Entry 77
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758297610
+    m_Key: New Entry 78
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758297611
+    m_Key: New Entry 79
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758297612
+    m_Key: New Entry 80
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758297613
+    m_Key: New Entry 81
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758297614
+    m_Key: New Entry 82
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758297615
+    m_Key: New Entry 83
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758297616
+    m_Key: New Entry 84
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758297617
+    m_Key: New Entry 85
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758297618
+    m_Key: New Entry 86
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758297619
+    m_Key: New Entry 87
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550762491904
+    m_Key: New Entry 88
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550762491905
+    m_Key: New Entry 89
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550762491906
+    m_Key: New Entry 90
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550762491907
+    m_Key: New Entry 91
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550762491908
+    m_Key: New Entry 92
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550762491909
+    m_Key: New Entry 93
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550762491910
+    m_Key: New Entry 94
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550762491911
+    m_Key: New Entry 95
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550762491912
+    m_Key: New Entry 96
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550762491913
+    m_Key: New Entry 97
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550762491914
+    m_Key: New Entry 98
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550762491915
+    m_Key: New Entry 99
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550762491916
+    m_Key: New Entry 100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550762491917
+    m_Key: New Entry 101
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550762491918
+    m_Key: New Entry 102
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550762491919
+    m_Key: New Entry 103
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550762491920
+    m_Key: New Entry 104
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550762491921
+    m_Key: New Entry 105
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550766686208
+    m_Key: New Entry 106
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550766686209
+    m_Key: New Entry 107
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550766686210
+    m_Key: New Entry 108
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550766686211
+    m_Key: New Entry 109
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550766686212
+    m_Key: New Entry 110
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550766686213
+    m_Key: New Entry 111
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550766686214
+    m_Key: New Entry 112
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550766686215
+    m_Key: New Entry 113
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550766686216
+    m_Key: New Entry 114
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550766686217
+    m_Key: New Entry 115
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550766686218
+    m_Key: New Entry 116
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550766686219
+    m_Key: New Entry 117
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550766686220
+    m_Key: New Entry 118
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550766686221
+    m_Key: New Entry 119
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550766686222
+    m_Key: New Entry 120
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550766686223
+    m_Key: New Entry 121
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550770880512
+    m_Key: New Entry 122
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550770880513
+    m_Key: New Entry 123
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550770880514
+    m_Key: New Entry 124
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550770880515
+    m_Key: New Entry 125
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550770880516
+    m_Key: New Entry 126
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550770880517
+    m_Key: New Entry 127
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550770880518
+    m_Key: New Entry 128
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550770880519
+    m_Key: New Entry 129
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550770880520
+    m_Key: New Entry 130
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550770880521
+    m_Key: New Entry 131
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550770880522
+    m_Key: New Entry 132
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550770880523
+    m_Key: New Entry 133
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550770880524
+    m_Key: New Entry 134
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550770880525
+    m_Key: New Entry 135
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550775074816
+    m_Key: New Entry 136
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550775074817
+    m_Key: New Entry 137
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550775074818
+    m_Key: New Entry 138
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550775074819
+    m_Key: New Entry 139
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550775074820
+    m_Key: New Entry 140
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550775074821
+    m_Key: New Entry 141
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550775074822
+    m_Key: New Entry 142
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550775074823
+    m_Key: New Entry 143
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550775074824
+    m_Key: New Entry 144
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550775074825
+    m_Key: New Entry 145
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550775074826
+    m_Key: New Entry 146
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550775074827
+    m_Key: New Entry 147
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550779269120
+    m_Key: New Entry 148
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550779269121
+    m_Key: New Entry 149
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550779269122
+    m_Key: New Entry 150
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550779269123
+    m_Key: New Entry 151
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550779269124
+    m_Key: New Entry 152
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550779269125
+    m_Key: New Entry 153
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550779269126
+    m_Key: New Entry 154
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550779269127
+    m_Key: New Entry 155
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550779269128
+    m_Key: New Entry 156
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550779269129
+    m_Key: New Entry 157
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550779269130
+    m_Key: New Entry 158
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550779269131
+    m_Key: New Entry 159
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550783463424
+    m_Key: New Entry 160
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550783463425
+    m_Key: New Entry 161
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550783463426
+    m_Key: New Entry 162
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550783463427
+    m_Key: New Entry 163
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550783463428
+    m_Key: New Entry 164
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550783463429
+    m_Key: New Entry 165
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550783463430
+    m_Key: New Entry 166
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550783463431
+    m_Key: New Entry 167
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550783463432
+    m_Key: New Entry 168
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550783463433
+    m_Key: New Entry 169
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550783463434
+    m_Key: New Entry 170
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550787657728
+    m_Key: New Entry 171
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550787657729
+    m_Key: New Entry 172
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550787657730
+    m_Key: New Entry 173
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550787657731
+    m_Key: New Entry 174
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550787657732
+    m_Key: New Entry 175
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550787657733
+    m_Key: New Entry 176
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550787657734
+    m_Key: New Entry 177
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550787657735
+    m_Key: New Entry 178
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550787657736
+    m_Key: New Entry 179
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550787657737
+    m_Key: New Entry 180
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550787657738
+    m_Key: New Entry 181
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550791852032
+    m_Key: New Entry 182
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550791852033
+    m_Key: New Entry 183
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550791852034
+    m_Key: New Entry 184
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550791852035
+    m_Key: New Entry 185
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550791852036
+    m_Key: New Entry 186
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550791852037
+    m_Key: New Entry 187
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550791852038
+    m_Key: New Entry 188
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550791852039
+    m_Key: New Entry 189
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550791852040
+    m_Key: New Entry 190
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550791852041
+    m_Key: New Entry 191
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550791852042
+    m_Key: New Entry 192
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550796046336
+    m_Key: New Entry 193
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550796046337
+    m_Key: New Entry 194
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550796046338
+    m_Key: New Entry 195
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550796046339
+    m_Key: New Entry 196
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550796046340
+    m_Key: New Entry 197
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550796046341
+    m_Key: New Entry 198
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550796046342
+    m_Key: New Entry 199
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550796046343
+    m_Key: New Entry 200
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550749908992
+    m_Key: LearningOutcomeDetails
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2337406077362176
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 3522845818157793417
+  references:
+    version: 2
+    RefIds:
+    - rid: 3522845818157793417
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1711827325768
