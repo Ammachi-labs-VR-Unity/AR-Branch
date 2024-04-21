@@ -20,6 +20,10 @@ public class ToggleControllerN : MonoBehaviour
             int index = i; // Capture index in lambda
             toggles[i].onValueChanged.AddListener((isOn) => OnToggleValueChanged(index, isOn));
         }
+
+        // Set the initial state of the toggle at index 0
+        toggles[0].isOn = true;
+        OnToggleValueChanged(0, true); // Call the method to update text and objects
     }
 
     void OnToggleValueChanged(int index, bool isOn)

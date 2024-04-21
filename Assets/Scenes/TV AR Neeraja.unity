@@ -15209,7 +15209,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 32-inch LED TV
+  m_text: 32-inch LCD TV
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9d4f2385747de4e8a9e49d70b55a5b3c, type: 2}
   m_sharedMaterial: {fileID: 5574273525280478972, guid: 9d4f2385747de4e8a9e49d70b55a5b3c,
@@ -22985,8 +22985,9 @@ MonoBehaviour:
   toggleTexts:
   - The outermost layer of the LCD TV, featuring a contrast coating to enhance visual
     clarity and reduce glare, ensuring a vivid viewing experience.
-  - 'Positioned beneath the front layer, polarizing film helps control the direction
-    of light passing through, crucial for creating the desired image on the screen. '
+  - 'Positioned beneath the front layer, horizontal polarizing film helps control
+    the direction of light passing through, crucial for creating the desired image
+    on the screen. '
   - These filters layer beneath the polarizing film, responsible for separating and
     controlling the colors displayed on the screen, ensuring accurate and vibrant
     color reproduction.
@@ -23001,9 +23002,8 @@ MonoBehaviour:
   - 'These components, positioned after the TFT layer, distribute light uniformly
     across the screen, ensuring consistent brightness and reducing hotspots or dim
     areas. '
-  - 'Positioned behind the diffusors and lightguides, LED backlights provide the
-    necessary illumination for the LCD screen, offering energy-efficient and customizable
-    lighting options. '
+  - 'Vertical polarizing film enhances image precision by allowing vertical light
+    while blocking horizontal light, ensuring sharp, glare-free visuals. '
   - 'The edge of the LCD TV, where the layers terminate, enclosing the components
     within the screen assembly and contributing to the overall structural integrity
     of the device. '
@@ -24954,7 +24954,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: LED backlight
+  m_text: Backlight
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9d4f2385747de4e8a9e49d70b55a5b3c, type: 2}
   m_sharedMaterial: {fileID: 5574273525280478972, guid: 9d4f2385747de4e8a9e49d70b55a5b3c,
@@ -28430,7 +28430,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1298212330
 RectTransform:
   m_ObjectHideFlags: 0
@@ -39724,8 +39724,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 312.11804, y: 0.342}
-  m_SizeDelta: {x: 624.236, y: 490.703}
+  m_AnchoredPosition: {x: 312.11804, y: 18.7223}
+  m_SizeDelta: {x: 624.236, y: 453.9425}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1793335055
 GameObject:
@@ -44644,7 +44644,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Add Congratulations text
+  m_text: You have successfully explored of display of LED/LCD TV
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9d4f2385747de4e8a9e49d70b55a5b3c, type: 2}
   m_sharedMaterial: {fileID: 5574273525280478972, guid: 9d4f2385747de4e8a9e49d70b55a5b3c,
