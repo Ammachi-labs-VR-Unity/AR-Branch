@@ -1430,7 +1430,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -3}
+  m_AnchoredPosition: {x: 0, y: -3.000122}
   m_SizeDelta: {x: 960, y: -256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &94625182
@@ -1780,11 +1780,11 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2019851816}
   toggleTransition: 1
   graphic: {fileID: 175571011}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 1925838014}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &115463380
 GameObject:
   m_ObjectHideFlags: 0
@@ -6286,11 +6286,11 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 722158183}
   toggleTransition: 1
   graphic: {fileID: 596143873}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 1925838014}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &295256674
 GameObject:
   m_ObjectHideFlags: 0
@@ -7873,11 +7873,11 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 545121880}
   toggleTransition: 1
   graphic: {fileID: 6674979}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 1925838014}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &408202413
 GameObject:
   m_ObjectHideFlags: 0
@@ -11753,7 +11753,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Add layer description
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9d4f2385747de4e8a9e49d70b55a5b3c, type: 2}
   m_sharedMaterial: {fileID: 5574273525280478972, guid: 9d4f2385747de4e8a9e49d70b55a5b3c,
@@ -11781,8 +11781,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44
-  m_fontSizeBase: 44
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -11817,7 +11817,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -298.66956, y: 0, z: 0, w: 0}
+  m_margin: {x: -580.1313, y: -69.24641, z: -127.331665, w: -75.95386}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -14066,11 +14066,11 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 127001418}
   toggleTransition: 1
   graphic: {fileID: 1549738925}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 1925838014}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &722158181
 GameObject:
   m_ObjectHideFlags: 0
@@ -22230,6 +22230,91 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1047049282}
   m_CullTransparentMesh: 1
+--- !u!1 &1048670899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1048670900}
+  - component: {fileID: 1048670901}
+  m_Layer: 5
+  m_Name: ToggleController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1048670900
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048670899}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1756113525}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1048670901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048670899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06943cf3dfdb40c4bb68f38d09727d9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggleGroup: {fileID: 1925838014}
+  textToUpdate: {fileID: 611156368}
+  objectsToShow:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  toggleTexts:
+  - The outermost layer of the LCD TV, featuring a contrast coating to enhance visual
+    clarity and reduce glare, ensuring a vivid viewing experience.
+  - 'Positioned beneath the front layer, polarizing film helps control the direction
+    of light passing through, crucial for creating the desired image on the screen. '
+  - These filters layer beneath the polarizing film, responsible for separating and
+    controlling the colors displayed on the screen, ensuring accurate and vibrant
+    color reproduction.
+  - 'Situated between the color filters and TFT layer, liquid crystals modulate light
+    transmission in response to electrical signals, forming the basis for pixel manipulation
+    and image creation. '
+  - 'Each pixel''s control mechanism, TFTs regulate the electrical charge to the
+    liquid crystals, enabling precise and rapid adjustments to create images with
+    high resolution and clarity. '
+  - 'Positioned beneath the front layer, polarizing film helps control the direction
+    of light passing through, crucial for creating the desired image on the screen. '
+  - 'These components, positioned after the TFT layer, distribute light uniformly
+    across the screen, ensuring consistent brightness and reducing hotspots or dim
+    areas. '
+  - 'Positioned behind the diffusors and lightguides, LED backlights provide the
+    necessary illumination for the LCD screen, offering energy-efficient and customizable
+    lighting options. '
+  - 'The edge of the LCD TV, where the layers terminate, enclosing the components
+    within the screen assembly and contributing to the overall structural integrity
+    of the device. '
 --- !u!1 &1060811872
 GameObject:
   m_ObjectHideFlags: 0
@@ -25753,11 +25838,11 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2096093628}
   toggleTransition: 1
   graphic: {fileID: 226929159}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 1925838014}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1210170785
 GameObject:
   m_ObjectHideFlags: 0
@@ -27809,11 +27894,11 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 288407627}
   toggleTransition: 1
   graphic: {fileID: 210728002}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 1925838014}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1301389095
 GameObject:
   m_ObjectHideFlags: 0
@@ -31350,11 +31435,11 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2069589105}
   toggleTransition: 1
   graphic: {fileID: 1115466197}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 1925838014}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1480164844
 GameObject:
   m_ObjectHideFlags: 0
@@ -37699,11 +37784,11 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 587420578}
   toggleTransition: 1
   graphic: {fileID: 883355639}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 1925838014}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1734568653
 GameObject:
   m_ObjectHideFlags: 0
@@ -38818,6 +38903,7 @@ RectTransform:
   - {fileID: 687919861}
   - {fileID: 2044501911}
   - {fileID: 600568475}
+  - {fileID: 1048670900}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -42119,13 +42205,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1925838013}
+  - component: {fileID: 1925838014}
   m_Layer: 5
   m_Name: Radiobuttons Explode Screen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1925838013
 RectTransform:
   m_ObjectHideFlags: 0
@@ -42151,6 +42238,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1925838014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925838012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AllowSwitchOff: 0
 --- !u!1 &1927390372
 GameObject:
   m_ObjectHideFlags: 0
@@ -43515,11 +43615,11 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1465169577}
   toggleTransition: 1
   graphic: {fileID: 408202415}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 1925838014}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &2013564899
 GameObject:
   m_ObjectHideFlags: 0
